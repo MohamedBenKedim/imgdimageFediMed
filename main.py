@@ -95,11 +95,22 @@ class ImageProcessingApp:
             self.image_label.configure(image=image)
             self.image_label.image = image
     def adjust_contrast(self, event):
-        # Implement contrast adjustment functionality
+
+        # Get the current contrast value from the slider
+        contrast_value = self.contrast_var.get()
+
+        # Print the chosen value
+        print(f"Chosen contrast: {contrast_value:.1f}")
+        
         pass
 
     def adjust_luminance(self, event):
-        # Implement luminance adjustment functionality
+        # Get the current contrast value from the slider
+        luminance_var = self.luminance_var.get()
+
+        # Print the chosen value
+        print(f"Chosen luminance: {luminance_var:.1f}")
+        
         pass
     
     def convert_grayscale(self,event):
