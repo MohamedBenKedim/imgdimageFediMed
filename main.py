@@ -256,8 +256,9 @@ class ImageProcessingApp:
               messagebox.showinfo("Image Saved", "The image has been saved successfully.")
 
     
-    '''def print_image(self, event=None):
-      if self.processed_image is not None:
+    def print_image(self, event=None):
+      pass
+      '''if self.processed_image is not None:
           # Convert processed image to a format compatible with Tkinter
           image_tk = ImageTk.PhotoImage(self.processed_image)
 
